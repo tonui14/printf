@@ -33,9 +33,8 @@ Additionally, the following conversion specifiers for integers will also be hand
 
 ## Note
 
-- The custom `printf` function does not need to handle flag characters, field width, precision, or length modifiers, as specified in the project instructions.
-
-- The buffer handling of the standard C library `printf` function does not need to be reproduced in this custom implementation.
+- Our custom printf function is designed to be simple and does not have to deal with flag characters, field width, precision, or length modifiers, as specified in the project requirements. 
+- Additionally, there is no need to recreate the buffer management of the standard C library printf in this custom implementation
 
 ## Collaborators
 
