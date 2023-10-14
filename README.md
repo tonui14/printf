@@ -18,6 +18,13 @@ int _printf(const char *format, ...);
 
 The `_printf` function will return the number of characters printed (excluding the null byte used to end output to strings).
 
+## Printf cases to handle
+- printf(“%s”, — — — — -)
+- printf(“%c”, — )
+- printf(“%%”)
+- printf(“ String here”)
+- printf(“%d or %i”)
+
 ## Supported Conversion Specifiers
 
 The custom `printf` function will handle the following conversion specifiers:
@@ -30,11 +37,6 @@ Additionally, the following conversion specifiers for integers will also be hand
 
 - `%d`: Print a signed integer.
 - `%i`: Print a signed integer.
-
-## Note
-
-- Our custom printf function is designed to be simple and does not have to deal with flag characters, field width, precision, or length modifiers, as specified in the project requirements. 
-- Additionally, there is no need to recreate the buffer management of the standard C library printf in this custom implementation
 
 ## Collaborators
 
