@@ -28,18 +28,13 @@ int _printf(const char *format, ...)
 			{
 				int character = va_arg(content, int);
 
-				_putchar(character);
-				trace++;
+				print_c(character, &trace);
 			}
 			else if (*format == 's')
 			{
 				char *word = va_arg(content, char*);
-
-				while (*word)
 				{
-					_putchar(*word);
-					word++;
-					trace++;
+					print_s(word, &trace);
 				}
 			}
 		}
