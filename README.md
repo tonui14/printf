@@ -2,7 +2,7 @@
 
 ## Contributors
 - [Daisy Tonui](https://github.com/lxmwaniky/)
-- [Alex Mwaniki](https://github.com/lxmwaniky/) 
+- [Alex Mwaniki](https://github.com/lxmwaniky/)
 
 ## Description
 
@@ -40,5 +40,5 @@ Additionally, the following conversion specifiers for integers will also be hand
 
 ## Collaborators
 
- - [Daisy Tonui](https://github.com/tonui14/)
- - [Alex Mwaniki](https://github.com/lxmwaniky/) 
+- [Daisy Tonui](https://github.com/tonui14/)
+- [Alex Mwaniki](https://github.com/lxmwaniky/)
