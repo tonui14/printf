@@ -34,10 +34,6 @@ int _printf(const char *format, ...)
 			{
 				print_s(content, &trace);
 			}
-			else if (*format == 'd' || *format == 'i')
-			{
-				print_di(content, &trace);
-			}
 		}
 		else
 		{
