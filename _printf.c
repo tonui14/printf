@@ -4,7 +4,7 @@
  * _printf - is the function for custom printf
  * @format: this is the pointer to a character
  * @...: is the variable arguments
- * Return: Always (0)
+ * Return: Always trace
  */
 
 int _printf(const char *format, ...)
@@ -28,7 +28,8 @@ int _printf(const char *format, ...)
 			{
 				int character = va_arg(content, int);
 
-				print_c(character, &trace);
+				_putchar(character);
+				trace++;
 			}
 			else if (*format == 's')
 			{
@@ -43,5 +44,6 @@ int _printf(const char *format, ...)
 			trace++;
 		}
 	}
-	return (0);
+	va_end(content);
+	return (trace);
 }
