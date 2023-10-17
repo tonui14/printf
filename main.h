@@ -12,6 +12,6 @@ int _putchar(char c);
 void print_c(char c, int *trace);
 void print_s(const char *str, int *trace);
 int _isdigit(char c);
-
+int print_b(unsigned int n);
 #endif
 
