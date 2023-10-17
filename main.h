@@ -11,6 +11,7 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 void print_c(char c, int *trace);
 void print_s(const char *str, int *trace);
+int _isdigit(char c);
 
 #endif
 
