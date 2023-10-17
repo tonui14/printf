@@ -12,6 +12,9 @@ int _printf(const char *format, ...)
 	int trace = 0;
 	va_list content;
 
+	if (format == NULL)
+		return (-1)
+
 	va_start(content, format);
 
 	while (*format)
