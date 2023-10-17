@@ -33,9 +33,8 @@ int _printf(const char *format, ...)
 			else if (*format == 's')
 			{
 				char *word = va_arg(content, char*);
-				{
-					print_s(word, &trace);
-				}
+
+				print_s(word, &trace);
 			}
 		}
 		else
