@@ -2,7 +2,7 @@
 
 /**
  * _printf - is the function for custom printf
- * @const char *format: this is the pointer to a character
+ * @format: this is the pointer to a character
  * @...: is the variable arguments
  * Return: Always (0)
  */
