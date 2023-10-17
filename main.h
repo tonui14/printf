@@ -9,9 +9,10 @@
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-void print_c(char c, int *trace);
-void print_s(const char *str, int *trace);
+void print_c(va_list content, int *trace);
+void print_s(va_list content, int *trace);
 int _isdigit(char c);
-int print_b(unsigned int n);
+void print_di(va_list content, int *trace);
+
 #endif
 

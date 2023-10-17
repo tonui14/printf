@@ -28,16 +28,15 @@ int _printf(const char *format, ...)
 			}
 			else if (*format == 'c')
 			{
-				int character = va_arg(content, int);
-
-				_putchar(character);
-				trace++;
+				print_c(content, &trace);
 			}
 			else if (*format == 's')
 			{
-				char *word = va_arg(content, char*);
-
-				print_s(word, &trace);
+				print_s(content, &trace);
+			}
+			else if (*format == 'd' || *format == 'i')
+			{
+				print_di(content, &trace);
 			}
 		}
 		else

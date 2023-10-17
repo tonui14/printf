@@ -7,13 +7,13 @@
  *
  **/
 
-void print_s(const char *str, int *trace)
+void print_s(va_list content, int *trace)
 {
-	while (*str)
-
+	char *word = va_arg(content, char *);
+	while (*word)
 	{
-		_putchar(*str);
-		str++;
+		_putchar(*word);
 		(*trace)++;
+		word++;
 	}
 }
