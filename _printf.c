@@ -40,8 +40,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			_putchar(*format);
-			format++;
+			_putchar(*format++);
 			trace++;
 		}
 	}
