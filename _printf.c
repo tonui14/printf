@@ -37,6 +37,7 @@ int _printf(const char *format, ...)
 			else if (*format == 'd' || *format == 'i')
 			{
 				int number = va_arg(content, int);
+
 				output = print_di(number);
 				trace += output;
 			}

@@ -19,11 +19,11 @@ int print_di(int number)
 		number = -number;
 	}
 
-	do{
+	do {
 		buffer[i++] = '0' + (number % 10);
 		number /= 10;
 		output++;
-	}while (number > 0);
+	} while (number > 0);
 
 	for (j = i - 1; j >= 0; j--)
 	{
