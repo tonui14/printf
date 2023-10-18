@@ -8,6 +8,7 @@ void print_b(unsigned int n, int *trace)
 	for (i = 31; i >= 0; i--)
 	{
 		int bits = (n >> i) & 1;
+
 		buffer[31 - i] = bits + '0';
 	}
 
