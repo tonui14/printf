@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_b - print binary rep of unsigned int
+ *
+ * @n: the unsigned integer to be converted in binary
+ * @trace: a pointer to an integer
+ **/
+
 void print_b(unsigned int n, int *trace)
 {
 	char buffer[32];

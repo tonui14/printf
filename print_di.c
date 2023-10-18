@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_di - prints an integer to standard output
+ *
+ * @number: an integer to be printed
+ * Return: the number of characters to be printed
+ **/
+
 int print_di(int number)
 {
 	char buffer[32];
@@ -12,12 +19,11 @@ int print_di(int number)
 		number = -number;
 	}
 
-	do
-	{
+	do{
 		buffer[i++] = '0' + (number % 10);
 		number /= 10;
 		output++;
-	} while (number > 0);
+	}while (number > 0);
 
 	for (j = i - 1; j >= 0; j--)
 	{
