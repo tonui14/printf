@@ -12,7 +12,7 @@ int _putchar(char c);
 void print_c(va_list content, int *trace);
 void print_s(va_list content, int *trace);
 int _isdigit(char c);
-void print_di(va_list content, int *trace);
+int print_di(int number);
 void print_b(unsigned int n, int *trace);
 
 #endif
