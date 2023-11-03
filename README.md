@@ -1,7 +1,7 @@
 # Printf Project
 
 ## Contributors
-- [Daisy Tonui](https://github.com/lxmwaniky/)
+- [Daisy Tonui](https://github.com/tonui14/)
 - [Alex Mwaniki](https://github.com/lxmwaniky/)
 
 ## Description
